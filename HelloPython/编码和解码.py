@@ -13,13 +13,25 @@
 # print(qs)
 # 对字符串进行编码处理
 
-from urllib import parse
-
-str_ = 'Hello我的World'
-
-ret = parse.quote(str_)
-
-print(ret)
+# from urllib import parse
+#
+# str_ = 'Hello我的World'
+#
+# ret = parse.quote(str_)
+#
+# print(ret)
 # 解码
 
-print(parse.parse_qs(ret))
+# print(parse.parse_qs(ret))
+# # test
+
+# 编码 解码
+# from urllib import parse
+#
+# data = {'name': 'Hello', 'sex': '男', '年龄': '23'}
+#
+# ret = parse.urlencode(data)
+# print("编码:")
+# print(ret)
+# print("解码:")
+# print(parse.parse_qs(ret))
