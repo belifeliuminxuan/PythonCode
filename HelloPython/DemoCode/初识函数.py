@@ -28,9 +28,15 @@
 # first()
 
 
-def hello(name):
-    print("hello",name)
+# def hello(name):
+#     print("hello",name)
+#
+#
+# hello("123")
 
-
-hello("123")
+# def hello(name):
+#     print("hello,"+name)
+#
+#
+# hello('sss')
 
