@@ -59,3 +59,18 @@ import sys
 #
 # for c in my_dir.items():
 #     print(c)
+
+# 序列的解包，遍历字典
+# my_dir = {'java': 90, 'C++': 80, 'python': 70}
+# for key, value in my_dir.items():
+#     print(key, value)
+#
+
+# my_list = list(range(1, 5))
+
+# for c in my_list:
+#     print(c)
+
+# t = my_list.__iter__()
+# t.__next__()
+
