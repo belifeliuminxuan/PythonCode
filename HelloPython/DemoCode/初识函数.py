@@ -1,9 +1,9 @@
- ###########################################################
- # Author   : liuminxuan
- # Email    : liuminxuan1024@163.com
- # Time     : 2020-03-02 11:24
- # FileName : 初识函数.py
- ###########################################################
+###########################################################
+# Author   : liuminxuan
+# Email    : liuminxuan1024@163.com
+# Time     : 2020-03-02 11:24
+# FileName : 初识函数.py
+###########################################################
 # 函数 完成一段功能的代码
 
 # 逻辑上的黑盒子
@@ -39,4 +39,34 @@
 #
 #
 # hello('sss')
+
+# def info(name, age):
+#    print("hello,i am ：",name)
+#    print(age)
+
+
+# info("123", 12)
+
+
+# def return_func(a, b):
+#    if a > b:
+#        return a
+#    else:
+#        return b
+
+
+# print(return_func(1, 2))
+
+
+# a = print("123")
+
+# def test():
+#     """
+#     test的函数说明
+#     :return:
+#     """
+#     print("hello")
+#
+#
+# print(test.__doc__)
 
