@@ -28,3 +28,26 @@
 #     test
 #     """
 #     a = 10
+
+# my_list = list(range(1, 11))
+# for i in my_list:
+#     print(i)
+
+
+# my_tuple = (1, 2, 3, 4, 5, 6, 7)
+
+# it = iter(my_tuple)
+# for i in it:
+#     print(i)
+
+# import os
+# os.getcwd()
+
+# def func():
+#     print()
+
+import time
+
+t = time.time()
+
+print(t)

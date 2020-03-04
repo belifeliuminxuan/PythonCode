@@ -18,7 +18,6 @@ def access_pixels(image):
     cv.imshow("show", image)
 
 
-
 def create_inage():
     img = np.zeros([400, 400, 3], np.uint8)
     cv.imshow("new image", img)
