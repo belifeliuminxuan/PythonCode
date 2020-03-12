@@ -35,3 +35,10 @@
 # print(ret)
 # print("解码:")
 # print(parse.parse_qs(ret))
+
+
+# def func():
+#     print("Hello")
+#
+#
+# func()
