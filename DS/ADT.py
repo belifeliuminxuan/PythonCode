@@ -9,4 +9,8 @@
 
 class Bag(object):
     def __init__(self, maxsize=10):
+    self.maxsize=maxsize
+    if len(self)>self.maxsize:
+        raise Exception("bog full")
+    :wq
 
