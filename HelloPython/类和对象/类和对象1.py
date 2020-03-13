@@ -31,20 +31,29 @@
 # 定义方法，第一个参数推荐用self，但不强制
 
 
-class Person:
-    def __init__(self, name='刘敏轩', age=22):
-        print('类的构造方法')
-        self.name = name
-        self.age = age
+# class Person:
+#     def __init__(self, name='刘敏轩', age=22):
+#         print('类的构造方法')
+#         self.name = name
+#         self.age = age
+#
+#
+# p1 = Person()
+# print(p1.name, p1.age)
+# p2 = Person('123')
+# print(p2.name, p2.age)
+# p3 = Person('456', 23)
+# print(p3.name, p3.age)
+#
+#
+# class Teacher:
+#     pass
 
 
-p1 = Person()
-print(p1.name, p1.age)
-p2 = Person('123')
-print(p2.name, p2.age)
-p3 = Person('456', 23)
-print(p3.name, p3.age)
 
+print("12345"
+      "ewewe"
+      "wewewe"
+      "ewewew"
+      "wewewewew\n")
 
-class Teacher:
-    pass
